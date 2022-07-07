@@ -1,0 +1,168 @@
+h1 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#title {
+  background-color: pink;
+}
+
+.container-fluid {
+  padding: 3% 15% 11%;
+}
+
+/* Navbar Changes */
+.navbar {
+  padding-bottom: 3rem;
+  padding-top: 0;
+}
+
+.navbar-item {
+  padding-right: 0 18px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.downloadbtn {
+  margin: 5% 3% 5% 0;
+}
+
+.titleimage {
+  width: 20%;
+  transform: rotate(35deg);
+  right: 18%;
+  position: absolute;
+}
+@media (max-width: 1000px){
+  .titleimage{
+    position: static;
+    transform: rotate(0);
+    width:30%;
+  }
+}
+
+
+/* Features*/
+#features {
+  padding: 3% 15%;
+  position: relative;
+  z-index: 1;
+  background-color: white;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%
+}
+
+.feature-icon {
+  color: pink;
+  padding-bottom: 20px;
+}
+
+
+.feature-icon:hover {
+  color: #F2D7D9;
+}
+/*Testimonials*/
+
+#testimonials {
+  text-align: center;
+  background-color: #F2D7D9;
+  color: white;
+}
+
+
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  border-radius: 300px;
+  width: 15%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #F2D7D9;
+  text-align: center;
+}
+
+.press-images {
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 7% 9%;
+  text-align: center;
+  font-weight: normal;
+}
+
+.pricing-column {
+  padding: 2% 3%;
+}
+
+#cta{
+  background-color: #F2D7D9;
+  text-align: center;
+}
+.bottompart{
+  padding :5%;
+  padding-bottom: 2%;
+}
+.bottombtn{
+  margin: 3% 3% 5% 0;
+}
+.bottomheadline{
+  font-family: "Montserrat";
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+#footer{
+  background-color: white;
+  text-align: center;
+  padding 30%;
+
+}
+.footerlogo{
+  padding:20px;
+  width: 2px;
+  color:#8f8f8f;
+}
